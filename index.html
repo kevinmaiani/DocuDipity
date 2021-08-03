@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head>
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <title>Docudipity</title>
+   <meta name="description" content="">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="base.css">
+      <script src="https://unpkg.com/jquery/dist/jquery.min.js"></script>
+      <link rel="stylesheet" href="./node_modules/jqwidgets-scripts/jqwidgets/styles/jqx.base.css" type="text/css" />       
+      <link rel="stylesheet" href="./node_modules/jqwidgets-scripts/jqwidgets/styles/jqx.light.css" type="text/css" />  
+      <link rel="stylesheet" href="./node_modules/jqwidgets-scripts/jqwidgets/styles/jqx.bootstrap.css" type="text/css" />  
+      <script src="./node_modules/jqwidgets-scripts/jqwidgets/jqx-all.js"></script>
+      <script src="https://unpkg.com/gridjs-jquery/dist/gridjs.production.min.js"></script>
+      </head>
+<body>
+   <div class='docudipity_analisisContainer'>
+      <header class='header'></header>
+      <div class='sidebar' id='sidebar'></div>
+      <div class='documentoverview' id='documentOverview'>
+      </div>
+    </div>
+   <script type="module">
+      import { AppGui } from "./dist/app.js"
+      AppGui.initialize();
+   </script>
+   </script>
+</body>
+</html>

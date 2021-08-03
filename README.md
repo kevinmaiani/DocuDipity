@@ -1,2 +1,5 @@
-# DocuDipity
-Web tool per la visualizzazione e il confronto di articoli scientifici con l'obiettivo di scoprire nuove informazioni
+# docudipity-frontend
+
+Getting started: 
+1) run in terminal 'npm install' command
+2) run 'npm run start' to start the application

@@ -1,0 +1,28 @@
+{
+  "name": "docudipiti-4.0",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w",
+    "lite": "lite-server",
+    "start": "concurrently \"npm run tsc:w\" \"npm run lite\" "
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jquery": "^3.5.4",
+    "concurrently": "^5.3.0",
+    "gridjs": "^3.1.0",
+    "gridjs-jquery": "^3.0.2",
+    "jquery": "^3.5.1",
+    "jqwidgets-scripts": "^11.0.1",
+    "lite-server": "^2.5.4",
+    "typescript": "^4.0.5"
+  },
+  "devDependencies": {
+    "jqueryui": "^1.11.1"
+  }
+}

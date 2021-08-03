@@ -1,0 +1,30 @@
+.docu-card {
+    font-family: 'Arial', sans-serif;
+    background: #f4f4f4;
+    width: 500px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 10px;
+    margin-bottom: 15px;
+    border-bottom: #108BFB 5px solid;
+    align-items: center;
+}
+
+.docu-card img {
+    width: 100%;
+    height:50%;
+}
+
+.docu-card button {
+    cursor: pointer;
+    background: #108BFB;
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+}
+
+.docu-card:hover{
+    background-color: #dedce2;
+}
