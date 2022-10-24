@@ -2,7 +2,7 @@
  
 DocuDipity è un web tool interattivo sviluppato per supportare l'esplorazione e l'analisi di articoli scientifici che consente di organizzare, visualizzare e mettere a confronto documenti, con l'obiettivo di creare un ambiente funzionale e flessibile, in grado di sfruttare tutto lo spazio a disposizione nell’interfaccia per garantire un'esperienza utente ottimale e favorire la scoperta di nuove informazioni durante la visualizzazione degli articoli. 
 
-Il tool si basa su un principio cardine della disciplina Visual Analytics, ossia *"Overview first, zoom and flter, then details-on-demand"*.
+Il tool si basa su un principio cardine della disciplina Visual Analytics, ossia *"Overview first, zoom and filter, then details-on-demand"*.
 L'idea è quella di avere a disposizione un'interfaccia in grado di dare una panoramica complessiva dei dati a disposizione (*overview*), ridurre la complessità di rappresentazione
 rimuovendo le informazioni non di interesse e focalizzandosi invece su quelle di interesse (*zoom and filter*), ed infine permettere all'utente di selezionare item specifci o gruppi di item di interesse ed ottenere informazioni aggiuntive (*details-on-demand*).
 
